@@ -1,19 +1,48 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
 .header {
   color: white;
   text-align: center;
   background-color: black;
-  width: 500px;
+  font-size: 3rem;
   position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0%;
+  margin: 1rem auto;
+  padding: 1rem;
 }
-.box1 {
+.flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
   text-align: center;
   border: 5px solid black;
-  width: 33vw;
-  height: 33vh;
+  width: 30%;
+  height: 40rem;
   color: black;
-  font-size: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem auto;
+}
+.card-img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+.card-description {
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+.card-header {
+  font-size: 2rem;
 }
