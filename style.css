@@ -37,7 +37,7 @@ body,
 .card-img {
   width: 90%;
   height: 60%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .card-description {
   padding: 0.5rem;
